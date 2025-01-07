@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href=".\Assets\icone.png" type="image/x-icon">
+    <!-- lien pour Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-900">
+    <header class="bg-gray-300 font-semibold">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+          <div class="flex h-16 items-center justify-between">
+            <div class="flex-1 md:flex md:items-center md:gap-12">
+                <img src=".\Assets\iconedev.jpeg" alt="SoftDev" class="flex justify-start w-20">
+             </div>
+            <div class="md:flex md:items-center md:gap-12">
+              <nav aria-label="Global" class="hidden md:block">
+                <ul class="flex items-center gap-6 text-sm">
+                  <li>
+                    <a class="text-black transition hover:text-gray-500/75" href="#accueil">Accueil
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a class="text-black transition hover:text-gray-500/75" href="#competences">Compétences
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a class="text-black transition hover:text-gray-500/75" href="#projets">Projets
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a class="text-black transition hover:text-gray-500/75" href="#contact">Contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="flex items-center gap-4">
+                <div class="block md:hidden">
+                  <button class="rounded bg-gray-300 p-2 text-gray-600 transition hover:text-gray-600/75">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="size-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+        <!-- ****************************************************************************************************************************** -->
+    <main>
+           <!-- la section Hero va etre une simple présentation  -->
+        <section id="accueil" class="text-white">
+                <!-- Jumbotron -->
+            <div
+            class="relative h-[600px] overflow-hidden  bg-[url('https://cdn.vectorstock.com/i/500p/39/11/programming-and-software-development-web-page-vector-30433911.jpg')] bg-cover bg bg-center bg-no-repeat p-12 text-center text-white">
+            <div
+              class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-black/60 bg-fixed">
+              <div class="flex h-full items-center justify-center">
+                <div class="text-white">
+                  <h2 class="mb-4 text-4xl font-semibold">Chafik TELLI</h2>
+                  <h4 class="mb-6 text-xl font-semibold">Je suis un développeur web junior. J'ai acquis pleins de compétences notamment en HTML et CSS. Mon objectif est de devenir un développeur professionnel et d'en faire une carrière</h4>
+                  <button
+                    type="button"
+                    class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-300 hover:text-neutral-200 focus:border-neutral-300 focus:text-neutral-200 focus:outline-none focus:ring-0 active:border-neutral-300 active:text-neutral-200 dark:hover:bg-neutral-600 dark:focus:bg-neutral-600"
+                    data-twe-ripple-init
+                    data-twe-ripple-color="light">
+                    Check my Resume
+                  </button>
+                </div>
+              </div>
+            </div>
+            </div>
+        </section>
+        <!-- ******************************************************************************************************************************** -->
+        
+        <section id="competences" class=" m-12 text-white">
+                  <h1 class="mb-2 text-2xl font-serif"> Mes Compétences</h1>
+          <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
+            <div class="-m-1 flex flex-wrap md:-m-2">
+              <div class="flex lg:w-1/4 flex-wrap">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="HTML5"
+                    class="block h-full w-full rounded-lg object-cover object-center"
+                    src=".\Assets\html-5-html-5-logo-wallpaper-preview.jpg" />
+                </div>
+              </div>
+              <div class="flex lg:w-1/4 flex-wrap">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="CSS3"
+                    class="block h-full w-full rounded-lg object-cover object-center"
+                    src=".\Assets\wp2742472.jpg" />
+                </div>
+              </div>
+              <div class="flex lg:w-1/4 flex-wrap">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="GitGithub"
+                    class="block h-full w-full rounded-lg object-cover object-center"
+                    src=".\Assets\Blog-2160x1080_GitandGitHubatWork-1-1920x960.jpg" />
+                </div>
+              </div>
+              <div class="flex lg:w-1/4 flex-wrap">
+                <div class="w-full p-1 md:p-2">
+                  <img
+                    alt="Bootstrap/Tailwind"
+                    class="block h-full w-full rounded-lg object-cover object-center"
+                    src=".\Assets\bottailwind.jpg" />
+                </div>
+              </div>              
+            </div>
+          </div>
+
+        </section>
+        
+        <!-- ******************************************************************************************************************************** -->
+        
+        <section id="projets" class=" m-12 text-gray-900">
+            <h1 class="text-2xl font-serif text-white"> Mes Projets</h1>
+            <div
+            class="sm:block md:flex m-5 rounded-lg bg-gray-400 shadow-secondary-1">
+            <a href="https://landingtravelfik.netlify.app/">
+              <img
+                class="rounded-t-lg"
+                src=".\Assets\landingtravel.png"
+                alt="Landing Travel" />
+            </a>
+            <div class="p-6 text-surface content-center">
+              <h5 class="mb-2 text-xl font-medium leading-tight">Travel Agency</h5>
+              <p class="mb-4 text-base">
+                Voici un des tout premiers projets que j'ai réalisé. 
+                Il s'agit d'une landing page d'une agence de voyage, que j'ai nommé Landing Travel.
+              </p>
+            </div>
+          </div>
+
+          <div
+          class="sm:block md:flex m-5 rounded-lg bg-gray-400 shadow-secondary-1">
+          <a href="https://gloryjudicators.netlify.app/">
+            <img
+              class="rounded-t-lg"
+              src=".\Assets\gloryjudicators.png"
+              alt="Glory Judicators" />
+          </a>
+          <div class="p-14 text-surface content-center">
+            <h5 class="mb-2 text-xl font-medium leading-tight">e-Commerce</h5>
+            <p class="mb-4 text-base">
+              Ici vous trouverez un site auquel je tiens particulièrement. 
+              C'est un site pour un magasin de vente de jeux vidéo.
+            </p>
+          </div>
+        </div>
+        </section>
+        <!-- ******************************************************************************************************************************** -->
+        
+        <section id="contact">
+            <h1 class="ml-12 text-2xl font-serif text-white -mb-5">Contactez-moi</h1>
+          <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+              <div class="rounded-lg bg-slate-500 p-8 shadow-lg lg:col-span-3 lg:p-12">
+                <form action="#" class="space-y-4">
+                  <div>
+                   <label class="block" for="name">Nom</label>
+                   <input class="w-96 rounded-lg border-gray-400 p-3 text-sm" placeholder="Name" type="text" id="name"/>
+                  </div>
+                 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  <div>
+                   <label class="block" for="email">Email</label>
+                   <input class="w-96 rounded-lg border-gray-400 p-3 text-sm" placeholder="Email address" type="email" id="email"/>
+                  </div>
+                 </div>
+                  <div>
+                   <label class="block" for="message">Message</label>
+                   <textarea class="w-full rounded-lg border-gray-400 p-3 text-sm" placeholder="Your Message" rows="8" id="message"></textarea>
+                  </div>
+                 <div class="mt-4">
+                   <button type="submit" class="inline-block w-full rounded-lg bg-gray-800 hover:bg-blue-800 px-5 py-3 font-medium text-white sm:w-auto">Envoyer</button>
+                 </div>
+               </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+       
+    <!-- ******************************************************************************************************************************** -->
+    <footer class="text-gray-900 bg-gray-300">
+        <div class="flex justify-center mt-3 mb-2"> 
+          <i class="fa-brands fa-facebook p-2"></i> 
+          <i class="fa-brands fa-instagram p-2"></i>
+          <i class="fa-brands fa-linkedin p-2"></i>
+          <i class="fa-brands fa-github p-2"></i>
+        </div>
+        <p class="flex justify-center ">&copy; 2025 Chafik TELLI. Tous droits réservés.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/7be8dbea1a.js" crossorigin="anonymous"></script>
+</body>
+</html>
